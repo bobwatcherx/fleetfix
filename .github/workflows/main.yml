@@ -17,7 +17,7 @@ jobs:
         with:
           workdir: ../../
           buildozer_version: stable
-
+          command: python3 hello.py;buildozer android debug
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
